@@ -1,0 +1,27 @@
+{
+  "pages": [
+    "pages/flex/align-self/align-self",
+    "pages/flex/align-items/align-items",
+    "pages/flex/flex-items/flex-items",
+    "pages/flex/align-content/align-content",
+    "pages/flex/flex-wrap/flex-wrap",
+    "pages/flex/justify-content/justify-content",
+    "pages/flex/flex-direction/flex-direction",
+    "pages/ifCompile/ifCompile",
+    "pages/vforkey/vforkey",
+    "pages/vfor/vfor",
+    "pages/vif/vif",
+    "pages/events/events",
+    "pages/hello/hello",
+    "pages/index/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "Hello",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "usingComponents": {},
+  "permission": {}
+}

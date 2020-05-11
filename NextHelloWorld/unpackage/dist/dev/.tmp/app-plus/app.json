@@ -1,0 +1,23 @@
+{
+  "pages": [
+    "pages/ifCompile/ifCompile",
+    "pages/vforkey/vforkey",
+    "pages/vfor/vfor",
+    "pages/vif/vif",
+    "pages/events/events",
+    "pages/hello/hello",
+    "pages/index/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "Hello",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "usingComponents": {},
+  "splashscreen": {
+    "autoclose": true
+  },
+  "appname": "NextHelloWorld"
+}

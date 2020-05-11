@@ -1,0 +1,2 @@
+<import src="./flex-direction.vue.wxml" />
+    <template is="3902a780" data="{{ ...$root['0'], $root }}"/>

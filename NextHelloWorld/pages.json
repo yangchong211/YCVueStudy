@@ -1,0 +1,72 @@
+{
+    "pages" : [
+        //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+        {
+            "path" : "pages/flex/align-self/align-self",
+            "style" : {}
+        },
+		{
+            "path" : "pages/flex/align-items/align-items",
+            "style" : {}
+        },
+		{
+            "path" : "pages/flex/flex-items/flex-items",
+            "style" : {}
+        },
+		{
+            "path" : "pages/flex/align-content/align-content",
+            "style" : {}
+        },
+        {
+            "path" : "pages/flex/flex-wrap/flex-wrap",
+            "style" : {}
+        },
+        
+        {
+            "path" : "pages/flex/justify-content/justify-content",
+            "style" : {}
+        },
+        {
+            "path" : "pages/flex/flex-direction/flex-direction",
+            "style" : {}
+        },
+        {
+            "path" : "pages/ifCompile/ifCompile",
+            "style" : {}
+        },
+        {
+            "path" : "pages/vforkey/vforkey",
+            "style" : {}
+        },
+        {
+            "path" : "pages/vfor/vfor",
+            "style" : {}
+        },
+        {
+            "path" : "pages/vif/vif",
+            "style" : {}
+        },
+        {
+            "path" : "pages/events/events",
+            "style" : {}
+        },
+        {
+            "path" : "pages/hello/hello",
+            "style" : {
+                "navigationBarTitleText" : "私有页面标题"
+            }
+        },
+        {
+            "path" : "pages/index/index",
+            "style" : {
+                "navigationBarTitleText" : "uni-app"
+            }
+        }
+    ],
+    "globalStyle" : {
+        "navigationBarTextStyle" : "black",
+        "navigationBarTitleText" : "Hello",
+        "navigationBarBackgroundColor" : "#F8F8F8",
+        "backgroundColor" : "#F8F8F8"
+    }
+}

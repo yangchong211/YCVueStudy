@@ -1,0 +1,2 @@
+<template name="6c4b56a4"><view class="_view content {{ h[ 0 ].rcl }}"><image class="_image logo" src="../../static/logo.png"></image><view class="_view"><text class="_text title">{{ h[ 4 ].t }}</text><input class="_input" type="text" value="{{ h[ 5 ][ 'value' ] }}" data-cid="{{ _c || c }}" data-hid="{{ 5 }}" onInput="_pe"></input></view><navigator class="_navigator" url="../hello/hello"><view class="_view">{{ h[ 8 ].t }}<view class="_br"></view>{{ h[ 10 ].t }}</view></navigator></view></template>
+<template is="6c4b56a4" data="{{ ...$root['0'], $root }}"/>

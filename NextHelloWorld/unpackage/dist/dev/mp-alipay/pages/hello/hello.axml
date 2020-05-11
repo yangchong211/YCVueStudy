@@ -1,0 +1,2 @@
+<template name="3b8234ae"><navigator class="_navigator {{ h[ 0 ].rcl }}" url="../index/index" open-type="navigateBack"><view class="_view green" style="width:750rpx; height:750rpx"></view></navigator></template>
+<template is="3b8234ae" data="{{ ...$root['0'], $root }}"/>

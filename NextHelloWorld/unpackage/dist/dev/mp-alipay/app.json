@@ -1,0 +1,11 @@
+{
+  "pages": [
+    "pages/hello/hello",
+    "pages/index/index"
+  ],
+  "window": {
+    "defaultTitle": "Hello",
+    "titleBarColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  }
+}

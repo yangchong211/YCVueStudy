@@ -1,0 +1,2 @@
+<import src="./align-items.vue.wxml" />
+    <template is="4f59cfdc" data="{{ ...$root['0'], $root }}"/>

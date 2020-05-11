@@ -1,0 +1,15 @@
+
+.color {
+	
+	
+	
+	background-color: #FF0000;
+	
+	
+	
+	
+	width: 250rpx;
+	height: 250rpx;
+}
+
+

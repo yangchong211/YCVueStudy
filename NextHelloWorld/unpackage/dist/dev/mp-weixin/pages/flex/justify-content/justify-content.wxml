@@ -1,0 +1,2 @@
+<import src="./justify-content.vue.wxml" />
+    <template is="fc1e3dcc" data="{{ ...$root['0'], $root }}"/>
