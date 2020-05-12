@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<script src="../vue.js" type="text/javascript" charset="UTF-8"></script>
+	</head>
+	<body>
+		<div id="app">
+			<h1 v-if="awesome">Vue is awesome!</h1>
+			<h1 v-else>Oh no 😢</h1>
+			
+			<div v-if="Math.random() > 0.5">
+			  Now you see me
+			</div>
+			<div v-else>
+			  Now you don't
+			</div>
+			
+			
+			<div v-if="type === 'A'">
+			  A
+			</div>
+			<div v-else-if="type === 'B'">
+			  B
+			</div>
+			<div v-else-if="type === 'C'">
+			  C
+			</div>
+			<div v-else>
+			  Not A/B/C
+			</div>
+		</div>
+		
+		
+		<script type="text/javascript">
+			var vm = new Vue({
+			  // 选项
+			})
+		</script>
+	</body>
+	
+	<style>
+		
+	</style>
+</html>

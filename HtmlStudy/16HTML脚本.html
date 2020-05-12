@@ -1,0 +1,70 @@
+<!-- <!DOCTYPE html> 声明为 HTML5 文档 -->
+<!DOCTYPE html>
+<!-- <html> 元素是 HTML 页面的根元素 -->
+<html>
+	<!-- <head> 元素包含了文档的元（meta）数据，如 <meta charset="utf-8"> 定义网页编码格式为 utf-8。 -->
+	<head>
+		<meta charset="utf-8">
+		<!-- <title> 元素描述了文档的标题 -->
+		<title>元素描述了文档的标题</title>
+	</head>
+	
+	<!-- <body> 元素包含了可见的页面内容 -->
+	<body>
+		<h3 >1.将脚本插入 HTML 文档</h3>
+		<script>
+		document.write("Hello World!")
+		</script> 
+		
+		<h3>2.不支持脚本或禁用脚本</h3>
+		<script>
+		document.write("Hello World!")
+		</script>
+		<noscript>抱歉，你的浏览器不支持 JavaScript!</noscript>
+		<p>不支持 JavaScript 的浏览器会使用 &lt;noscript&gt; 元素中定义的内容（文本）来替代。</p>
+		 
+		
+		<h3>3.JavaScript体验(来自本站javascript教程)</h3>
+		<p>
+		JavaScript 能够直接写入 HTML 输出流中：
+		</p>
+		<script>
+		document.write("<h5>这是一个标题</h5>");
+		document.write("<p>这是一个段落。</p>");
+		</script>
+		<p>
+		您只能在 HTML 输出流中使用 <strong>document.write</strong>。
+		如果您在文档已加载后使用它（比如在函数中），会覆盖整个文档。
+		</p>
+		
+		
+		<h3>4.JavaScript事件响应</h3>
+		<p id="demo">
+		JavaScript 可以触发事件，就像按钮点击。</p>
+		<script>
+		function myFunction()
+		{
+			document.getElementById("demo").innerHTML="Hello JavaScript!";
+		}
+		</script>
+		<button type="button" onclick="myFunction()">点我</button>
+		
+		
+		<h3>5.JavaScript处理 HTML 样式</h3>
+		<p id="demo2">
+		JavaScript 能改变 HTML 元素的样式。
+		</p>
+		<script>
+		function myFunction2()
+		{
+			x=document.getElementById("demo2") // 找到元素
+			x.style.color="#ff0000";          // 改变样式
+		}
+		</script>
+		<button type="button" onclick="myFunction2()">点击这里</button>
+		
+		
+		
+	</body>
+	
+</html>

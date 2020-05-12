@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<script src="../vue.js" type="text/javascript" charset="UTF-8"></script>
+	</head>
+	<body>
+		<div id="app">
+			<li v-for="n in evenNumbers">
+				{{ n }}
+			</li>
+
+			<ul v-for="set in sets">
+				<li v-for="m in even(set)">
+					{{ m }}
+				</li>
+			</ul>
+		</div>
+
+
+		<script type="text/javascript">
+			var vm = new Vue({
+				// 选项
+				el: "#app",
+				data: {
+					numbers: [1, 2, 3, 4, 5],
+					// sets: [[ 1, 2, 3, 4, 5 ], [6, 7, 8, 9, 10]]
+				},
+				computed: {
+					evenNumbers: function() {
+						return this.numbers.filter(function(number) {
+							return number % 2 === 0
+						})
+					},
+					// even: function (numbers) {
+					//   return numbers.filter(function (number) {
+					//     return number % 2 === 0
+					//   })
+					// }
+				}
+			})
+		</script>
+	</body>
+
+	<style>
+
+	</style>
+</html>

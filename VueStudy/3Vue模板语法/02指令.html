@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<script src="../vue.js" type="text/javascript" charset="UTF-8"></script>
+	</head>
+	<body>
+		<div id="app">
+			<!-- v-if 指令将根据表达式 seen 的值的真假来插入/移除 <p> 元素 -->
+			<p v-if="seen">现在你看到我了</p>
+			<br />
+			<!-- v-bind 指令可以用于响应式地更新 HTML attribute： -->
+			<a v-bind:href="url">网址</a>
+			<br />
+			<a v-on:click="doSomething">doSomething</a>
+			
+			<div @click="click1">
+				<div @click.stop="click2">
+					click me
+				</div>
+			</div>
+		</div>
+		
+		
+		<script type="text/javascript">
+			var vm = new Vue({
+			  // 选项
+			  el:"#app",
+			  data:{
+				  seen : true,
+				  url : "https://github.com/yangchong211",
+				  
+			  },
+			  methods:{
+				  click : function () {
+				  	console.log('click....doSomething..');
+				  },
+				  click1 : function () {
+				  	console.log('click1......');
+				  },
+				  click2 : function () {
+				  	console.log('click2......');
+				  }
+			  }
+			})
+		</script>
+	</body>
+	
+	<style>
+		
+	</style>
+</html>

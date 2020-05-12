@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<script src="../vue.js" type="text/javascript" charset="UTF-8"></script>
+	</head>
+	<body>
+		<div id="app">
+			<!-- 可以用 v-for 指令基于一个数组来渲染一个列表 -->
+			<li v-for="item in items" :key="item.message">
+				{{ item.message }}
+			</li>
+
+
+			<ul>
+				<li v-for="value, key in object">
+					{{key}} : {{ value }}
+				</li>
+			</ul>
+
+			<li v-for="value in object">
+				{{ value }}
+			</li>
+		</div>
+
+
+		<script type="text/javascript">
+			var vm = new Vue({
+				// 选项
+				el: "#app",
+				data: {
+					items: [{
+							message: 'Foo'
+						},
+						{
+							message: 'Bar'
+						}
+					],
+					object: {
+						title: 'How to do lists in Vue',
+						author: 'Jane Doe',
+						publishedAt: '2016-04-10'
+					}
+				}
+			})
+		</script>
+	</body>
+
+	<style>
+
+	</style>
+</html>
