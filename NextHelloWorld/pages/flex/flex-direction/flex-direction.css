@@ -8,7 +8,7 @@
 		column: 从上到下
 		column-reverse: 从下到上
 	*/
-	flex-direction: column-reverse;
+	flex-direction: column;
 }
 
 .txt {

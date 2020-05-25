@@ -12,6 +12,10 @@
 				</block>
 			</view>
 		</view>
+		
+		<view v-for="(obj,index) in array">
+			<view>姓名:{{obj.name}} 性别:{{obj.sex}}</view>
+		</view>
 	</view>
 </template>
 
@@ -45,6 +49,16 @@
 						age: 16,
 						skill: ["VUE", "HTML", "JS"]
 					}
+				],
+				array : [
+					{
+						name: "Jack",
+						sex:"男",
+					},
+					{
+						name: "Steve",
+						sex:"男",
+					},
 				]
 			};
 		}

@@ -9,6 +9,10 @@
 		column-reverse: 从下到上
 	*/
 	flex-direction: row;
+	align-items: center;
+	
+	height: 500rpx;
+	background-color: #2C405A;
 }
 
 .txt {

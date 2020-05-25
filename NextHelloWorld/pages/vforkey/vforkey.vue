@@ -6,7 +6,7 @@
 		</view>
 		
 		<button type="primary" @click="addStu">新增学生</button>
-		
+		<button type="primary" @click="delStu" style="margin-top: 20upx;">删除学生</button>
 	</view>
 </template>
 
@@ -45,6 +45,10 @@
 				
 				// studentArray.push(newStu);	// push 在数组的尾部进行添加
 				studentArray.unshift(newStu);	// unshift 在数组的首部进行添加
+			},
+			delStu(){
+				var stuArray = this.studentArray;
+				stuArray.pop();
 			}
 		}
 	}

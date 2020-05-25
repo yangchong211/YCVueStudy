@@ -14,6 +14,10 @@
             "style" : {}
         },
 		{
+		    "path" : "pages/test/test-position",
+		    "style" : {}
+		},
+		{
             "path" : "pages/flex/align-content/align-content",
             "style" : {}
         },
@@ -50,12 +54,50 @@
             "path" : "pages/events/events",
             "style" : {}
         },
+		{
+		    "path" : "pages/test/v-for-test",
+		    "style" : {}
+		},
+		{
+		    "path" : "pages/ele/element-children1",
+		    "style" : {}
+		},
+		{
+		    "path" : "pages/ele/element-children2",
+		    "style" : {}
+		},
+		{
+		    "path" : "pages/ele/element-parent1",
+		    "style" : {}
+		},
+		{
+		    "path" : "pages/ele/element-parent2",
+		    "style" : {}
+		},
         {
             "path" : "pages/hello/hello",
             "style" : {
                 "navigationBarTitleText" : "私有页面标题"
             }
         },
+		{
+		    "path" : "pages/test/this-test",
+		    "style" : {
+		        "navigationBarTitleText" : "this作用域问题分析"
+		    }
+		},
+		{
+		    "path" : "pages/test/test-a",
+		    "style" : {
+		        "navigationBarTitleText" : "路由跳转问题"
+		    }
+		},
+		{
+		    "path" : "pages/test/test-b",
+		    "style" : {
+		        "navigationBarTitleText" : "路由跳转问题"
+		    }
+		},
         {
             "path" : "pages/index/index",
             "style" : {

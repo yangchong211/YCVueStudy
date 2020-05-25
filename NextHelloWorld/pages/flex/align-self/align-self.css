@@ -47,7 +47,7 @@
 		center: 居中对齐
 		baseline: 保证元素中的文字在同一条基准线（保证每个文字都在同一条线上）
 	 */
-	align-self: stretch;
+	align-self: baseline;
 }
 
 .green {

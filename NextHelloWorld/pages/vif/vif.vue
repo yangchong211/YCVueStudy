@@ -12,8 +12,10 @@
 		</view>
 		
 		<view v-show="isShow">
-			now you see me
+			now you see me haha
 		</view>
+		
+		
 		
 		<!-- 三元计算 -->
 		<view v-if="sex1 == 1 ? true : false">
@@ -22,6 +24,10 @@
 		<view v-if="sex0 == 0 ? true : false">
 			女性
 		</view>
+		<view v-if="sex2 == 0 ? true : false">
+			男
+		</view>
+		
 		
 		<view>
 			========================
@@ -46,7 +52,8 @@
 			return {
 				isShow: true,
 				sex0: 0,
-				sex1: 2
+				sex1: 2,
+				sex2: 1
 			};
 		}
 	}

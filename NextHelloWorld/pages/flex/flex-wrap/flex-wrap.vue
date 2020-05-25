@@ -5,7 +5,7 @@
 			A
 		</view>
 		
-		<view class="red txt">
+		<view class="red txt" style="margin-top: -30rpx;">
 			B
 		</view>
 		

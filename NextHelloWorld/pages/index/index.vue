@@ -38,13 +38,14 @@
 		// Model: 所有的数据
 		data() {
 			return {
-				title: 'Hello NEXT学院，可以输入内容',
+				title: '可以输入内容',
 				student: {
 					age: 17
 				},
 				skill: ["Java", "HTML", "CSS", "Springcloud", "VUE"],
 				url: "../hello/hello",
-				image: "../../static/logo.png"
+				// image: "../../static/logo.png",
+				image: "../../static/my/my_bg.png",
 			}
 		},
 		onLoad() {
@@ -59,7 +60,7 @@
 	}
 </script>
 
-<style>
+<style lang="scss">
 	.content {
 		text-align: center;
 		height: 400upx;
